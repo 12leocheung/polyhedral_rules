@@ -244,26 +244,26 @@ body::after {
     THREE OF A KIND:
     4 x [SUM OF THREE]
 
-    STRAIGHT:
+    LITTLE STRAIGHT (1-4):
     8 x [SUM OF STRAIGHT]
 
     FULL HOUSE:
-    12 x [SUM OF ALL DICE]
+    10 x [SUM OF ALL DICE]
 
     FOUR OF A KIND:
     16 x [SUM OF FOUR]
 
-    BIG STRAIGHT:
-    10 x [SUM OF STRAIGHT]
+    BIG STRAIGHT (1-5):
+    12 x [SUM OF STRAIGHT]
 
     FIVE OF A KIND:
     20 x [SUM OF FIVE]
 
     SCALING RULE:
-    FOR N-OF-A-KIND, ADD +4 MULTIPLIER EACH STEP:
-    3 = x4
+    FOR N-OF-A-KIND, ADD +4 MULTIPLIER EACH STEP (FROM 4):
     4 = x16
     5 = x20
+    6 = x24
 
     NOTES:
     - ALWAYS USE A CALCULATOR
@@ -277,7 +277,7 @@ body::after {
     </div>
     </div>
 
-  <div class="section" data-raw="If its round 1, you earn $8, round 2, you earn $11 and round 3 you earn $15. This then cycles back around to round 1.">
+  <div class="section" data-raw="If its round 1, you earn $8, round 2, you earn $11 and round 3 you earn $15. This then cycles back around to round 1. If you do not meet or exceed the quota, you lose.">
     <div class="section-header">
       <div class="section-title">earning</div>
     </div>
@@ -286,7 +286,7 @@ body::after {
     </div>
   </div>
 
-  <div class="section" data-raw="After the player has completed a round they enter the shop. Here, they must take 4 random shop cards from the deck and place them face up. The player then decides what they want to purchase and gives the required money to the bank. They can also pay $5 to reroll the shop. They are able to buy multiple cards as long as this does not exeed their balance.">
+  <div class="section" data-raw="After the player has completed a round they enter the shop. Here, they must take 4 random shop cards from the deck and place them face up. The player then decides what they want to purchase and gives the required money to the bank. They can also pay $5 to reroll the shop. They are able to buy multiple cards as long as this does not exeed their balance. Also you may pay $5 to reroll the shop by taking 4 new cards and removing the old ones.">
     <div class="section-header">
       <div class="section-title">shop phase</div>
     </div>
@@ -295,7 +295,13 @@ body::after {
     </div>
   </div>
 
-  <div class="section" data-raw="1. Hand upgrade cards are only used when that specific hand is played.&#10;2. If a player has no dice, they lose the game.&#10;3. Upgrades such as if you roll a 3, gain $1 can be triggered even when the dice isnt scored and can happen more than once in a round. Same goes for the gold dice.">
+  <div class="section" data-raw="1. Hand upgrade cards are only used when that specific hand is played.&#10;
+  2. If a player has no dice, they lose the game.&#10;
+  3. Upgrades such as if you roll a 3, gain $1 and gold dice can be triggered even when the dice isn't scored and can happen more than once in a round.&#10;
+  4. If two players get the same score, roll a single dice and whoever has the highest roll wins.&#10;
+  5. Hand upgrade cards only apply when that exact hand is played.&#10;
+  6. 5 jokers maximum. Unlimited upgrades. Unlimited items.&#10;
+  7. With the ruby dice, when adding chips together the 3 counts as the number you desire.&#10;">
     <div class="section-header">
       <div class="section-title">advanced rules</div>
     </div>
@@ -304,9 +310,53 @@ body::after {
     </div>
   </div>
 
-  <div class="section" data-raw="Gameplay mainly stays the same as each player is trying to beat the quota however they are also trying to compete for the highest hand against eachother. They cycles are; 1. $5 for winner and $3 for the loser, 2. $7 for winner and $4 for loser and 3. $10 for winner and $5 for loser. The winner also gets first pick in the shop the the loser then the winner then the loser (alternating). If there are more than 2 players, the player with the highest hand gets $8, the second highest gets $4 and the rest get $2. The shop phase is also different as players will pick cards in order of their score (highest to lowest) and then they can buy as many cards as they want until they run out of money or are satisfied.">
+  <div class="section" data-raw="Gameplay mainly stays the same as each player is trying to beat the quota however they are also trying to compete for the highest hand against eachother. Whoever has the highest on round 1 will earn $5 and the losers will earn $3, round 2 will earn $7 and the losers will earn $4 and round 3 will earn $10 and the losers will earn $5. The winner also gets first pick in the shop then the loser then the winner then the loser (alternating).">
     <div class="section-header">
       <div class="section-title">multiplayer</div>
+    </div>
+    <div class="section-content">
+      <p class="typewriter-text"></p>
+    </div>
+  </div>
+
+  <div class="section" data-raw="QUOTAS:
+    ROUND 1: 25
+    ROUND 2: 50
+    ROUND 3: 100
+    ROUND 4: 150
+    ROUND 5: 200
+    ROUND 6: 300
+    ROUND 7: 500
+    ROUND 8: 750
+    ROUND 9: 1000
+    ROUND 10: 1500
+    ROUND 11: 2000
+    ROUND 12: 3000
+    ROUND 13: 5000
+    ROUND 14: 7500
+    ROUND 15: 10000
+    ROUND 16: 15000
+    ROUND 17: 20000
+    ROUND 18: 30000
+    ROUND 19: 50000
+    ROUND 20: 75000
+    ROUND 21: 100000">
+    <div class="section-header">
+      <div class="section-title">quotas</div>
+    </div>
+    <div class="section-content">
+      <p class="typewriter-text"></p>
+    </div>
+  </div>
+
+    <div class="section" data-raw="DICE TYPES:
+    Purple: no effect
+    Emerald: +2 mult when scored
+    Ruby: 3s count as a wild card
+    Gold: if you roll a 3 during rolling or scoring, gain a standard dice
+    Diamond: +0.5 final score to the score after calculated">
+    <div class="section-header">
+      <div class="section-title">dice types</div>
     </div>
     <div class="section-content">
       <p class="typewriter-text"></p>
